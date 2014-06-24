@@ -537,7 +537,7 @@
 						<key>children</key>
 						<array/>
 						<key>customClass</key>
-						<string></string>
+						<string>Gameplay</string>
 						<key>displayName</key>
 						<string>levelNode</string>
 						<key>memberVarAssignmentName</key>
