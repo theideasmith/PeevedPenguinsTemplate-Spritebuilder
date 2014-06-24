@@ -17,7 +17,7 @@
 
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
-    self.userInteractionEnabled = TRUE;
+    self.userInteractionEnabled = YES;
     NSLog(@"%hhd",self.userInteractionEnabled);
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
