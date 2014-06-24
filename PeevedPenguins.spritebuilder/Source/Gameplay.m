@@ -14,8 +14,9 @@
     CCNode *_levelNode;
 
 }
--(void)reset{
-    [self didLoadFromCCB];
+- (void)reset {
+    // reload this level
+    [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
 }
 
 - (void)didLoadFromCCB {
