@@ -246,8 +246,8 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>66.75439453125</real>
-						<false/>
+						<real>50</real>
+						<true/>
 					</array>
 				</dict>
 				<dict>
