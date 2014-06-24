@@ -9,5 +9,9 @@
 #import "MainScene.h"
 
 @implementation MainScene
-
+- (void)play {
+    CCLOG(@"play button pressed");
+    CCScene *gamePlayScene = [CCBReader loadAsScene:@"Gameplay"];
+    [[CCDirector sharedDirector] replaceScene:gamePlayScene];
+}
 @end
