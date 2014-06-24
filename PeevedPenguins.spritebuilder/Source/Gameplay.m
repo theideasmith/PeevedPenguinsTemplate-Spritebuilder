@@ -25,6 +25,7 @@
 
 // called on every touch in this scene
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    NSLog(@"Touch");
     [self launchPenguin];
 }
 
