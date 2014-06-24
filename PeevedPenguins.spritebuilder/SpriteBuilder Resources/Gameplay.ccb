@@ -552,7 +552,7 @@
 								<key>type</key>
 								<string>StringSimple</string>
 								<key>value</key>
-								<string></string>
+								<string>_levelNode</string>
 							</dict>
 							<dict>
 								<key>name</key>
