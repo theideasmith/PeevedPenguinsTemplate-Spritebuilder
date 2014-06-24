@@ -27,6 +27,7 @@
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     NSLog(@"Loaded level1");
     [_levelNode addChild:level];
+    _physicsNode.debugDraw = TRUE;
 }
 
 // called on every touch in this scene
