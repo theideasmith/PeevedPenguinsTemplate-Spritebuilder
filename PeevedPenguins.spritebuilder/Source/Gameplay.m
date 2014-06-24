@@ -16,6 +16,7 @@
 
 
 - (void)didLoadFromCCB {
+    NSLog(@"Loaded");
     // tell this scene to accept touches
     self.userInteractionEnabled = YES;
     NSLog(@"%hhd",self.userInteractionEnabled);
