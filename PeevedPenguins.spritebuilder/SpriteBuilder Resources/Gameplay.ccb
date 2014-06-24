@@ -537,7 +537,7 @@
 						<key>children</key>
 						<array/>
 						<key>customClass</key>
-						<string>Gameplay</string>
+						<string></string>
 						<key>displayName</key>
 						<string>levelNode</string>
 						<key>memberVarAssignmentName</key>
@@ -606,14 +606,16 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
-				<string>_physicsNode</string>
+				<string></string>
 				<key>displayName</key>
 				<string>CCPhysicsNode</string>
 				<key>memberVarAssignmentName</key>
-				<string></string>
+				<string>_physicsNode</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -697,8 +699,6 @@
 						<real>0.5</real>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
