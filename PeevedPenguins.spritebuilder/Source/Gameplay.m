@@ -39,6 +39,7 @@
 
 // called on every touch in this scene
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    NSLog(@"touch began");
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     if (CGRectContainsPoint([_catapultArm boundingBox], touchLocation)){
         _mouseJointNode.position = touchLocation;
