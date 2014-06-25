@@ -14,4 +14,6 @@
 
 - (void)didLoadFromCCB;
 - (void)launchPenguin ;
+-(void)releaseCatapult;
+
 @end
