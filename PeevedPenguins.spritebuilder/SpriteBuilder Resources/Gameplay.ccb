@@ -267,6 +267,8 @@
 					</array>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1266,7 +1268,7 @@
 								<key>displayName</key>
 								<string>Anchorpoint</string>
 								<key>memberVarAssignmentName</key>
-								<string>_mouseJointNode </string>
+								<string>_pullbackNode</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
@@ -1344,7 +1346,7 @@
 								<key>displayName</key>
 								<string>CCNode</string>
 								<key>memberVarAssignmentName</key>
-								<string>_mouseJoint</string>
+								<string>_mouseJointNode</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
