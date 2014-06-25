@@ -13,6 +13,7 @@
     CCNode *_catapultArm;
     CCNode *_levelNode;
     CCNode *_contentNode;
+    CCNode *_pullbackNode;
 
 }
 - (void)reset {
@@ -28,6 +29,7 @@
     NSLog(@"Loaded level1");
     [_levelNode addChild:level];
     _physicsNode.debugDraw = TRUE;
+    _pullbackNode.physicsBody.collisionMask = @[];
 }
 
 // called on every touch in this scene
